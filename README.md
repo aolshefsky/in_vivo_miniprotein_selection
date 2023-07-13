@@ -1,10 +1,13 @@
 # in_vivo_miniprotein_selection
 Scripts used for sequencing analysis in the manuscript entitled "In vivo selection of synthetic nucleocapsids for tissue targeting."
 
+Sequence Analysis Pipeline (Surface Library): Sequence files are stored in /surface_library/ folder. Enrichment script same as miniprotein display library except enrichment was calculated relative to I53-50-v4 base nanoparticle enrichment.
+
 Sequence Analysis Pipeline (Miniprotein Display Library) 
 
-
 Note: Even if it isn’t indicated, some of these steps might require using the ‘sed’ command to remove unwanted characters. Check output files in terminal with the ‘head’ command.
+
+Note: Raw fastq files are uploaded in the Sequencing Read Archive, BioProject ID PRJNA994506.
 
     1. Use PEAR application to get .fastq files from MiSeq data using default PEAR settings (Zhang J, Kobert K, Flouri T, Stamatakis A. PEAR: a fast and accurate Illumina Paired-End reAd mergeR. Bioinformatics. 2014 Mar 1;30(5):614-20. doi: 10.1093/bioinformatics/btt593. Epub 2013 Oct 18. PMID: 24142950; PMCID: PMC3933873.)
 
